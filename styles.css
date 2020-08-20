@@ -1,0 +1,23 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+}
+.container{
+    width: 1920px;
+    height: 1080px;
+    background-image:linear-gradient(rgba(0 , 0, 0, 0.3), rgba(0 , 0, 0, 0.3)), url("bg1.jpg");
+    margin: 20px auto;
+}
+h1{
+    color: antiquewhite;
+}
+.calculator{
+    width: 420px;
+    height: 800px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 80px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
