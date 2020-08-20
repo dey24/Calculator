@@ -12,11 +12,11 @@ h1{
     color: antiquewhite;
 }
 .calculator{
-    width: 420px;
-    height: 800px;
+    width: 380px;
+    height: 600px;
     background-color: #eaedef;
     margin: 0 auto;
-    top: 80px;
+    top: 200px;
     border-radius: 10px;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -44,5 +44,10 @@ h1{
 }
 .operator, .number, .empty{
     width:50px;
-    
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    font-weight:  bold;
+    font-size: 15px
 }
